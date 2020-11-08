@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: white;
+}
+.navbar {
+	border: 1px solid black;
+	background: #000000;
+	width: 98vw;
+	margin: 1vw;
+	border-radius: 5px;
+	display: flex;
+	align-items: stretch;
+}
+.navBanner {
+	position: relative;
+	padding: 5px;
+}
+.navBanner img {
+	width: 180px;
+}
+.navItem {
+	padding: 5px;
+	display: flex;
+	border: 1px solid yellow;
+	min-height: inherit;
+	align-items: center;
+}
+.navItem div {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.navItem a {
+	color: white;
+	font-size: 20px;
+	font-family: ;
+	text-decoration: none;
+	border: 1px solid red;
+	padding: 10px 15px;
+}
