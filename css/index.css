@@ -14,7 +14,6 @@ body {
 	border-radius: 5px;
 	display: flex;
 	justify-content: space-between;
-
 }
 .navBanner {
 	position: relative;
@@ -26,7 +25,6 @@ body {
 .navItem {
 	padding: 5px;
 	display: flex;
-	border: 1px solid yellow;
 	min-height: inherit;
 	align-items: center;
 }
@@ -37,8 +35,13 @@ body {
 .navItem a {
 	color: white;
 	font-size: 20px;
-	font-family: ;
+	font-family: 'Cuprum', sans-serif;
 	text-decoration: none;
-	border: 1px solid red;
 	padding: 10px 15px;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.navItem a:hover {
+	background: #F4B400;
+	color: black;
 }
